@@ -42,7 +42,7 @@ console.log(prvo, drugo , trece);
 const ime = "Dusan";
 const prezime = "Stojanovic";
 
-console.log (ime , " " , prezime);
+console.log (ime + " " +prezime);
 
 // zadatak 6 
 
@@ -68,3 +68,24 @@ if (danUSedmici == 1) {
 
 // zadatak 7
 
+let paranIliNe = 346346;
+
+if (paranIliNe % 2 == 0) {
+    console.log ("Paran");
+} else {
+    console.log ("Neparan");
+}
+
+// zadatak 8
+
+let FizzBuzz = 543696;
+
+if (FizzBuzz % 15 == 0) {
+    console.log ("FizzBuzz");
+} else if (FizzBuzz % 5 ==0) {
+    console.log ("Buzz");
+} else if (FizzBuzz % 3 == 0) {
+    console.log ("Fizz");
+} else { 
+    console.log ("Nije djeljiv ni sa 3 ni sa 5");
+}
